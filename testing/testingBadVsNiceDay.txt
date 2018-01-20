@@ -1,0 +1,11 @@
+python label_image.py testImages/badDayTestingImages/t1.jpg (99.5 C)
+python label_image.py testImages/badDayTestingImages/t2.jpg (99.1 C)
+python label_image.py testImages/badDayTestingImages/t3.jpg (82.3 C)
+python label_image.py testImages/badDayTestingImages/t4.jpg (98.3 C)
+python label_image.py testImages/badDayTestingImages/t5.jpg (87.2 C)
+
+python label_image.py testImages/niceDayTestingImages/t1.jpg (77.2 C)
+python label_image.py testImages/niceDayTestingImages/t2.jpg (75.1 C)
+python label_image.py testImages/niceDayTestingImages/t3.jpg (98.0 C)
+python label_image.py testImages/niceDayTestingImages/t4.jpg (98.5 C)
+python label_image.py testImages/niceDayTestingImages/t5.jpg (99.3 C)
