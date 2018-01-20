@@ -1,0 +1,9 @@
+niceDayDataset:
+Using google images and the chrome extension "fatkun", a batch image downloader, here is a list of images determined to be best representative of a clear day.
+In the dataset, there are roughly 65 images of pure sky, no other obtrusions. 
+
+badDayDataset:
+There are 47 images in the training and 5 images in the testing 
+
+The datasets can be found here: 
+https://drive.google.com/open?id=1odLVTokhogpPEb65sucKkE7b6Gr4fzEi
