@@ -1,0 +1,25 @@
+In docker:
+
+Running:Enter into the tensorflow directory
+docker run -it \
+  --publish 8081:8081 \
+  --volume ${HOME}/tf_files \
+  --workdir /tf_files\
+  tensorflow/tensorflow:1.1.0 bash
+
+Retrain: Enter this script into docker to retrain the network 
+python retrain.py \
+  --bottleneck_dir=bottlenecks \
+  --how_many_training_steps=500 \
+  --model_dir=inception \
+  --summaries_dir=training_summaries/basic \
+  --output_graph=retrained_graph.pb \
+  --output_labels=retrained_labels.txt \
+  --image_dir=DIRNAME
+
+
+Testing: Change the path and insert into docker to test
+python label_image.py PATH.jpg
+
+
+python label_image.py testImages/badDayTestingImages/t5.jpg
